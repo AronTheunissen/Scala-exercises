@@ -1,0 +1,10 @@
+[debug] > Exec(dsad, Some(dac1f06b-84be-40c3-9110-06f3c5a592c8), Some(CommandSource(console0)))
+[error] Not a valid command: dsad (similar: loadp)
+[error] Not a valid project ID: dsad
+[error] Expected ':'
+[error] Not a valid key: dsad (similar: state, ps)
+[error] dsad
+[error]     ^
+[debug] > Exec(shell, None, None)
+[error] server failed to start on local:sbt-server-711b29ff2ab78e6d8eb1. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-711b29ff2ab78e6d8eb1_lock, error 5
+[debug] Forcing garbage collection...

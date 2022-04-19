@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: D:\Documenten\Sogyo\Scala\leap-year\src\main\scala\Main.scala:10:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33melse[0m [33mif[0m (year % [31m100[0m == [31m0[0m) println([31m"The year"[0m year +[31m" is not a leap year"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value year is not a member of String - did you mean ([32m"The year"[0m : String).chars?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: D:\Documenten\Sogyo\Scala\leap-year\src\main\scala\Main.scala:10:52 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33melse[0m [33mif[0m (year % [31m100[0m == [31m0[0m) println([31m"The year"[0m year +[31m" is not a leap year"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    [31m^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                 value unary_+ is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

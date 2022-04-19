@@ -1,0 +1,9 @@
+[debug] > Exec(stop, Some(8e0a0845-ed7c-43e7-8172-652faba98915), Some(CommandSource(console0)))
+[error] Not a valid command: stop (similar: set, last, shutdown)
+[error] Not a valid project ID: stop
+[error] Expected ':'
+[error] Not a valid key: stop (similar: bgStop, test, history)
+[error] stop
+[error]     ^
+[debug] > Exec(shell, None, None)
+[error] server failed to start on local:sbt-server-711b29ff2ab78e6d8eb1. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-711b29ff2ab78e6d8eb1_lock, error 5

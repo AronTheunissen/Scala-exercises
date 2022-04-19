@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.1)
+[debug] Load.defaultLoad until apply took 546.7535ms
+[debug]           Load.loadUnit: plugins took 146.8995ms
+[debug]           Load.loadUnit: defsScala took 0.7098ms
+[debug] [Loading] Scanning directory D:\Documenten\Sogyo\Scala\leap-year\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Documenten\Sogyo\Scala\leap-year\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.9132 ms
+[debug]               Load.resolveProject(leap-year-build) took 69.0093ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id leap-year-build, base: D:\Documenten\Sogyo\Scala\leap-year\project, plugins: List(<none>))) took 130.5258ms
+[debug] [Loading] Done in D:\Documenten\Sogyo\Scala\leap-year\project, returning: (leap-year-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 164.629ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2895ms
+[debug]         Load.loadUnit(file:/D:/Documenten/Sogyo/Scala/leap-year/project/, ...) took 324.1746ms
+[debug]       Load.apply: load took 542.0321ms
+[debug]       Load.apply: resolveProjects took 6.1596ms
+[debug]       Load.apply: finalTransforms took 73.5845ms
+[debug]       Load.apply: config.delegates took 17.6269ms
+[debug]       Load.apply: Def.make(settings)... took 580.6007ms
+[debug]       Load.apply: structureIndex took 131.0109ms
+[debug]       Load.apply: mkStreams took 2.3916ms
+[info] loading project definition from D:\Documenten\Sogyo\Scala\leap-year\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2405.4491ms
+[debug]     Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory D:\Documenten\Sogyo\Scala\leap-year
+[debug]       Load.loadUnit: mkEval took 5.3162ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.0859 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.3267ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\Documenten\Sogyo\Scala\leap-year, plugins: List(<none>))) took 9.8338ms
+[debug] [Loading] Done in D:\Documenten\Sogyo\Scala\leap-year, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 166.9518ms
+[debug]     Load.loadUnit: cleanEvalClasses took 13.2434ms
+[debug]   Load.loadUnit(file:/D:/Documenten/Sogyo/Scala/leap-year/, ...) took 2588.8689ms
+[debug] Load.apply: load took 2630.044ms
+[debug] Load.apply: resolveProjects took 0.1903ms
+[debug] Load.apply: finalTransforms took 10.4887ms
+[debug] Load.apply: config.delegates took 0.7863ms
+[debug] Load.apply: Def.make(settings)... took 91.6009ms
+[debug] Load.apply: structureIndex took 38.956ms
+[debug] Load.apply: mkStreams took 0.0026ms
+[info] set current project to leap-year (in build file:/D:/Documenten/Sogyo/Scala/leap-year/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[error] server failed to start on local:sbt-server-711b29ff2ab78e6d8eb1. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-711b29ff2ab78e6d8eb1_lock, error 5
+[debug] Forcing garbage collection...

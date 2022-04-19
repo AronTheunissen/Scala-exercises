@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(7567b1d1-d37c-447e-91cd-68dbb6cb8aa3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\Documenten\Sogyo\Scala\hangman\target\scala-3.1.1\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:43:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m43 |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |'}' expected, but eof found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:5:13 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m  [33mval[0m [36mword[0m = getWord()[0m
+[0m[[0m[31merror[0m] [0m[0m  |             [31m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |             Not found: getWord[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:6:41 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m  [33mvar[0m (toGuessLetters, guessedLetters) = getCharacters(word)[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                         [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                         Not found: getCharacters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E045] Cyclic Error: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:6:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m  [33mvar[0m (toGuessLetters, guessedLetters) = getCharacters(word)[0m
+[0m[[0m[31merror[0m] [0m[0m  |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |  Recursive [33mvalue[0m [35m$1$[0m needs type[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:29:0 ---[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m29 |[0m[33mdef[0m [36mgetWord[0m() : [35mString[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: D:\Documenten\Sogyo\Scala\hangman\src\main\scala\Main.scala:36:0 ---[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m36 |[0m[33mdef[0m [36mgetCharacters[0m([36mx[0m : [35mString[0m) : ([35mList[Char][0m, [35mList[Char][0m) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Apr 15, 2022, 12:29:28 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

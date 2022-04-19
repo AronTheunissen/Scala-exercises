@@ -1,0 +1,6 @@
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-711b29ff2ab78e6d8eb1
+[debug] Writing bsp connection file
+[info] started sbt server
+[debug] Forcing garbage collection...

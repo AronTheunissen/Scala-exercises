@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E052] Type Error: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala:9:17 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m    secondLowest = lowest [0m
+[0m[[0m[31merror[0m] [0m[0m  |    [31m^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |    Reassignment to val secondLowest[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E052] Type Error: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala:10:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m    lowest = a[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Reassignment to val lowest[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E052] Type Error: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala:12:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m    [33melse[0m [33mif[0m (a < secondLowest) secondLowest = a[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               Reassignment to val secondLowest[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

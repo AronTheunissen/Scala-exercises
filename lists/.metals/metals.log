@@ -1,0 +1,783 @@
+2022.04.12 11:49:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.12 11:49:20 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.12 11:49:20 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.12 11:49:20 INFO  Parse release: 17.0.1
+2022.04.12 11:49:23 INFO  time: initialize in 3.04s
+2022.04.12 11:49:24 WARN  Build server is not auto-connectable.
+2022.04.12 11:49:25 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 11:49:29 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.12 11:49:31 INFO  time: code lens generation in 5.51s
+2022.04.12 11:49:31 INFO  time: code lens generation in 5.51s
+2022.04.12 11:52:57 INFO  shutting down Metals
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@6ff8e60c rejected from java.util.concurrent.ThreadPoolExecutor@6bc76f2b[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 70]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.04.12 13:43:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.12 13:43:11 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.12 13:43:11 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.12 13:43:11 INFO  Parse release: 17.0.1
+2022.04.12 13:43:14 INFO  time: initialize in 3.12s
+2022.04.12 13:43:15 WARN  Build server is not auto-connectable.
+2022.04.12 13:43:15 INFO  skipping build import with status 'Requested'
+2022.04.12 13:43:16 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 13:43:20 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.12 13:43:23 INFO  time: code lens generation in 6.26s
+2022.04.12 13:43:23 INFO  time: code lens generation in 6.26s
+2022.04.12 13:45:03 INFO  shutting down Metals
+2022.04.12 13:52:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.12 13:52:17 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.12 13:52:17 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.12 13:52:17 INFO  Parse release: 17.0.1
+2022.04.12 13:52:20 INFO  time: initialize in 2.86s
+2022.04.12 13:52:20 WARN  Build server is not auto-connectable.
+2022.04.12 13:52:21 INFO  skipping build import with status 'Requested'
+2022.04.12 13:52:22 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 13:52:25 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+Apr 12, 2022 1:52:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 12, 2022 1:52:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Apr 12, 2022 1:52:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.98s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.98s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.65s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.64s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.86s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.89s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.83s
+2022.04.12 13:52:27 INFO  time: code lens generation in 1.82s
+2022.04.12 13:52:55 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 13:58:16 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:07:57 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:09:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 419
+2022.04.12 14:09:23 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.ClassCastException: class dotty.tools.dotc.core.Symbols$NoSymbol$ cannot be cast to class dotty.tools.dotc.core.Symbols$ClassSymbol (dotty.tools.dotc.core.Symbols$NoSymbol$ and dotty.tools.dotc.core.Symbols$ClassSymbol are in unnamed module of loader java.net.URLClassLoader @5eaff104)
+	at dotty.tools.dotc.core.Symbols$Symbol.asClass(Symbols.scala:172)
+	at dotty.tools.dotc.interactive.Interactive$.enclosingSourceSymbols(Interactive.scala:111)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:55)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.04.12 14:09:53 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:10:04 INFO  shutting down Metals
+2022.04.12 14:10:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.12 14:10:32 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.12 14:10:32 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.12 14:10:32 INFO  Parse release: 17.0.1
+2022.04.12 14:10:36 INFO  time: initialize in 3.22s
+2022.04.12 14:10:36 WARN  Build server is not auto-connectable.
+2022.04.12 14:10:37 INFO  skipping build import with status 'Requested'
+2022.04.12 14:10:40 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:10:45 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.12 14:10:48 INFO  time: code lens generation in 7.4s
+2022.04.12 14:10:48 INFO  time: code lens generation in 7.39s
+2022.04.12 14:11:34 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:12:30 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:12:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-17.0.1/lib/src.zip%21/java.base/java/lang/String.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java is an invalid URI"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:630)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:621)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:1033)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 20 more
+
+Apr 12, 2022 2:12:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-17.0.1/lib/src.zip%21/java.base/java/lang/String.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:630)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:621)
+	at scala.meta.internal.metals.MetalsLanguageServer.didClose(MetalsLanguageServer.scala:1202)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 20 more
+
+2022.04.12 14:12:50 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:13:12 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:13:34 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:13:54 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:14:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 241
+2022.04.12 14:18:21 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:18:44 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:27:59 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:28:52 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:29:11 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:29:20 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:30:32 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:30:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1187
+2022.04.12 14:30:45 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.04.12 14:32:58 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:33:22 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:34:13 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:35:01 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:36:47 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:36:57 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:46:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 38 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:46:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:46:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:46:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 37 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:47:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 38 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:47:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 39 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:47:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 39 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Apr 12, 2022 2:47:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 40 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.04.12 14:47:17 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 12, 2022 2:47:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 40 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.04.12 14:47:41 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:47:46 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:47:50 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:48:59 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:49:29 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 14:51:20 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:11:02 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:11:46 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:20:28 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:21:58 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:28:15 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:28:51 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:29:28 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:29:36 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:29:51 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:31:44 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:31:57 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:40:12 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:42:14 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:42:39 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:43:05 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:43:17 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:44:26 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:55:22 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:57:48 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:57:48 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.12 16:57:48 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+Apr 13, 2022 11:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-17.0.1/lib/src.zip%21/java.base/java/lang/String.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java is an invalid URI"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:630)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:621)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:1033)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 20 more
+
+Apr 13, 2022 11:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-17.0.1/lib/src.zip%21/java.base/java/lang/String.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:630)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:621)
+	at scala.meta.internal.metals.MetalsLanguageServer.didClose(MetalsLanguageServer.scala:1202)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/String.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 20 more
+
+2022.04.14 17:06:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.14 17:06:06 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.14 17:06:06 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.14 17:06:06 INFO  Parse release: 17.0.1
+2022.04.14 17:06:09 INFO  time: initialize in 3.2s
+2022.04.14 17:06:13 WARN  Build server is not auto-connectable.
+2022.04.14 17:06:13 INFO  skipping build import with status 'Requested'
+2022.04.14 17:06:15 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.14 17:06:18 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.14 17:06:22 INFO  time: code lens generation in 7.74s
+2022.04.14 17:06:22 INFO  time: code lens generation in 7.75s
+Apr 14, 2022 5:06:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2022.04.14 17:06:25 INFO  shutting down Metals
+2022.04.14 17:07:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.14 17:07:52 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.14 17:07:52 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.14 17:07:52 INFO  Parse release: 17.0.1
+2022.04.14 17:07:55 INFO  time: initialize in 3.12s
+2022.04.14 17:07:56 WARN  Build server is not auto-connectable.
+2022.04.14 17:07:56 INFO  skipping build import with status 'Requested'
+2022.04.14 17:07:57 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.14 17:08:01 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.14 17:08:04 INFO  time: code lens generation in 5.83s
+2022.04.14 17:08:04 INFO  time: code lens generation in 5.83s
+2022.04.14 18:47:03 INFO  shutting down Metals
+2022.04.14 19:01:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.14 19:01:34 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.14 19:01:34 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.14 19:01:34 INFO  Parse release: 17.0.1
+2022.04.14 19:01:37 INFO  time: initialize in 3.1s
+2022.04.14 19:01:38 WARN  Build server is not auto-connectable.
+2022.04.14 19:01:38 INFO  skipping build import with status 'Requested'
+2022.04.14 19:01:39 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.14 19:01:43 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.14 19:01:46 INFO  time: code lens generation in 5.5s
+2022.04.14 19:01:46 INFO  time: code lens generation in 5.5s
+2022.04.15 12:33:33 INFO  shutting down Metals
+2022.04.15 13:52:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.15 13:52:17 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.15 13:52:17 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.15 13:52:17 INFO  Parse release: 17.0.1
+2022.04.15 13:52:19 INFO  time: initialize in 2.87s
+2022.04.15 13:52:20 WARN  Build server is not auto-connectable.
+2022.04.15 13:52:20 INFO  skipping build import with status 'Requested'
+2022.04.15 13:52:21 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.15 13:52:26 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.15 13:52:29 INFO  time: code lens generation in 6.42s
+2022.04.15 13:58:57 INFO  shutting down Metals
+2022.04.19 10:42:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.19 10:42:49 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.19 10:42:49 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.19 10:42:49 INFO  Parse release: 17.0.1
+2022.04.19 10:42:52 INFO  time: initialize in 2.91s
+2022.04.19 10:42:52 WARN  Build server is not auto-connectable.
+2022.04.19 10:42:52 INFO  skipping build import with status 'Requested'
+2022.04.19 10:42:54 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.19 10:42:57 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 10:43:00 INFO  time: code lens generation in 5.42s
+2022.04.19 10:43:00 INFO  time: code lens generation in 5.42s
+2022.04.19 10:43:05 INFO  shutting down Metals
+2022.04.19 11:05:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.19 11:05:13 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.19 11:05:13 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.1.
+2022.04.19 11:05:13 INFO  Parse release: 17.0.1
+2022.04.19 11:05:16 INFO  time: initialize in 3.01s
+2022.04.19 11:05:16 WARN  Build server is not auto-connectable.
+2022.04.19 11:05:16 INFO  skipping build import with status 'Requested'
+2022.04.19 11:05:18 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.19 11:05:21 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 11:05:24 INFO  time: code lens generation in 5.33s
+2022.04.19 11:05:24 INFO  time: code lens generation in 5.33s
+2022.04.19 12:43:04 INFO  shutting down Metals
+2022.04.19 12:43:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documenten\Sogyo\Scala\lists\.metals\lsp.trace.json or C:\Users\aron7\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.19 12:43:33 INFO  logging to file D:\Documenten\Sogyo\Scala\lists\.metals\metals.log
+2022.04.19 12:43:33 INFO  Started: Metals version 0.11.2 in workspace 'D:\Documenten\Sogyo\Scala\lists' for client Visual Studio Code 1.66.2.
+2022.04.19 12:43:33 INFO  Parse release: 17.0.1
+2022.04.19 12:43:36 INFO  time: initialize in 3.49s
+2022.04.19 12:43:37 WARN  Build server is not auto-connectable.
+2022.04.19 12:43:37 INFO  skipping build import with status 'Requested'
+2022.04.19 12:43:39 WARN  no build target for: D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala
+2022.04.19 12:43:43 INFO  no build target found for D:\Documenten\Sogyo\Scala\lists\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 12:43:46 INFO  time: code lens generation in 6.67s
+2022.04.19 12:43:46 INFO  time: code lens generation in 6.67s

@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(49aeb18d-3186-41af-9f48-581a64e9c39c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IndexOutOfBoundsException: 98[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.apply(List.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$package$.hangman$$anonfun$1(Main.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$package$.hangman$$anonfun$adapted$1(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:333)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$package$.hangman(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hangman.main(Main.scala:4)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.IndexOutOfBoundsException: 98[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Apr 19, 2022, 10:36:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
